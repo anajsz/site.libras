@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Biblioteca Online</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Biblioteca Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Área Principal -->
+    <main>
+        <div class="book">
+            <h2>O Pequeno Principe</h2>
+            <img src="https://m.media-amazon.com/images/I/81dP9iwxRaL._AC_UF1000,1000_QL80_.jpg" alt="Capa do livro O Nome do Vento">
+            <p><strong>Autor:</strong> Antoine de Saint-Exupéry</p>
+            <p><strong>Sinopse:</strong> Um piloto cai com seu avião no deserto e ali encontra uma criança loura e frágil. Ela diz ter vindo de um pequeno planeta distante. E ali, na convivência com o piloto perdido, os dois repensam os seus valores e encontram o sentido da vida.</p>
+        </div>
+        <div class="book">
+            <h2>Diário de um Banana</h2>
+            <img src="https://www.livrariapanapana.com.br/wp-content/uploads/2024/02/91EShRkyE2L._SL1500_.jpg" alt="Capa do livro 1984">
+            <p><strong>Autor:</strong> Vergara Riba</p>
+            <p><strong>Sinopse:</strong> Greg é um garoto comum de 11 anos que vai à escola e enfrenta os desafios da pré-adolescência como milhões de outros. O que o torna tão especial é a vontade de dividir essas experiências com todo mundo, para o caso de tornar-se rico e famoso quando crescer.</p>
+        </div>
+        <div class="book">
+            <h2>Menino Maluquinho</h2>
+            <img src="https://m.media-amazon.com/images/I/911o1h5gIzL._AC_UF1000,1000_QL80_.jpg" alt="Capa do livro Menino Maluquinho">
+            <p><strong>Autor:</strong> Ziraldo Alves</p>
+            <p><strong>Sinopse:</strong> A obra retrata a história de um menino “ Tirava dez em todas as matérias, mas era zero em comportamento”. Mesmo sendo tão travesso, o menino maluquinho como é chamado, é um garoto muito inteligente, amigo, alegre, que adora usar a sua imaginação.</p>
+        </div>
+        <!-- Adicione mais livros conforme necessário -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Biblioteca Online Desenvolvido por Ana Julia Santos © 2024 | 
+    </footer>
+    
+    <!-- Integração VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
